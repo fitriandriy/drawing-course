@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font: 16px/24px 'Quicksand', sans-serif;
+    background-image: url(../img/pawel-czerwinski-OG44d93iNJk-unsplash.jpg);
+}
+
+/*  Navigasi */
+nav {
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+nav img {
+    width: 50px;
+}
+
+/* content */
+.ilustration {
+    float: left;
+    width: 60%;
+}
+
+.ilustration img {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.content {
+    float: right;
+    width: 40%;
+    margin-top: 60px;
+    padding-right: 10%;
+}
+
+.getItOn img{
+    width: 20%;
+    margin-top: 20px;
+}
+
+.rememberForgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+button {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/* Media Query */
+@media screen and (max-width: 1000px) {
+    .ilustration, .content {
+        display: block;
+        width: 70%;
+    }
+
+    .ilustration img {
+        margin-left: 25%;
+    }
+
+    .content {
+        margin-right: 10%;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .input {
+        padding-top: 10px;
+    }
+
+    body {
+        font: 14px/24px 'Quicksand', sans-serif;
+    }
+}
